@@ -15,14 +15,14 @@ public class Passeggero {
 
     private final String nome, cognome, codiceFiscale;
     private final LocalDate dataDiNascita;
-    private final boolean MalatoDiCuore;
+    private final boolean malatoDiCuore;
 
-    public Passeggero(String nome, String cognome, String codiceFiscale, LocalDate dataDiNascita, boolean MalatoDiCuore) {
+    public Passeggero(String nome, String cognome, String codiceFiscale, LocalDate dataDiNascita, boolean malatoDiCuore) {
         this.nome = nome;
         this.cognome = cognome;
         this.codiceFiscale = codiceFiscale;
         this.dataDiNascita = dataDiNascita;
-        this.MalatoDiCuore = MalatoDiCuore;
+        this.malatoDiCuore = malatoDiCuore;
     }
 
     public String getNome() {
@@ -42,12 +42,12 @@ public class Passeggero {
     }
 
     public boolean isMalatoDiCuore() {
-        return MalatoDiCuore;
+        return malatoDiCuore;
     }
 
     @Override
     public String toString() {
-        return "Passeggero{" + "nome=" + nome + ", cognome=" + cognome + ", codiceFiscale=" + codiceFiscale + ", dataDiNascita=" + dataDiNascita + ", MalatoDiCuore=" + MalatoDiCuore + '}';
+        return "Passeggero{" + "nome=" + nome + ", cognome=" + cognome + ", codiceFiscale=" + codiceFiscale + ", dataDiNascita=" + dataDiNascita + ", MalatoDiCuore=" + malatoDiCuore + '}';
     }
     
     

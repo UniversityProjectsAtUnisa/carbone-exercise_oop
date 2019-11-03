@@ -5,6 +5,8 @@
  */
 package eserciziocarbonereal;
 
+import eserciziocarbonereal.able.*;
+
 /**
  *
  * @author marco
