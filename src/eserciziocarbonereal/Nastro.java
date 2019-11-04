@@ -12,12 +12,16 @@ import eserciziocarbonereal.exception.*;
  *
  * @author carbo
  */
-public class Nastro extends PriorityQueue<Valigia> {
+public class Nastro extends LinkedList<Valigia> {
 
     List<FiltroBagaglio> filtri = new ArrayList<>();
 
+        
     public Nastro() {
         super();
+    }
+    public void addFiltro(FiltroBagaglio e){
+        filtri.add(e);
     }
 
     @Override
